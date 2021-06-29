@@ -1,0 +1,15 @@
+$fontColor: #34547A;
+
+
+* {
+    font-family: 'Roboto','Revalia', cursive sans-serif;
+}
+
+.burger__menu {
+    display: none;
+}
+
+
+@import './header';
+@import './media';
+@import './burger';
