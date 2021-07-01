@@ -6,21 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Revalia&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/bootstrap-reboot.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="header">>
-            </div>
+    <section class="header container">
+        <div class="header__logo">
+            <a href="index.html" class="header__logo-link">
+                <img src="./img/logo.svg" alt="" class="header__logo">
+            </a>
+            <h4 class="header__title">Прямые работодатели<br> 
+            для подборщиков мебели</h4>
         </div>
-        
-    </header>
+        <div class="header__request">
+            <a href="tel:+375291290891" class="header__request-phone">
+                + (375 29) 129-08-91</a>
+            <button class="header__button button">
+                <span>Заказать обратный звонок</span> 
+            </button>
+        </div>
+    </section>
+    <section class="header__content container">
+        <div class="header__description">
+            <h1 class="header__description-title">
+            Вакансия:<br> комплектатор интерьера</h1>
+            <h3 class="header__description-subtitle">
+                Работа с лучшими условиями в отрасли с «белой»<br> 
+                зарплатой от 150 000 ₽ до 300 000 ₽ в Domeo!
+            </h3>
+            <ul class="header__description-advantages">
+                <li>
+                    <img src="./img/description-img.svg" alt="">
+                    <span>Зарплата без задержек<br> 2 раза в месяц</span> 
+                </li>
+                <li>
+                    <img src="./img/description-img.svg" alt="">
+                    <span>Полный соц. пакет и возможность<br>
+                        роста до руководителя отдела</span> 
+                </li>
+                <li>
+                    <img src="./img/description-img.svg" alt="">
+                    <span>Официальное<br> трудоустройство</span> 
+                </li>
+                <li>
+                    <img src="./img/description-img.svg" alt="">
+                    <span>Работайте в своем темпе<br> 
+                    без простоя в заказах</span>
+                </li>
+            </ul>
+            <h5 class="header__description-subheading">Узнайте прямо сейчас все актуальные вакансии<br>
+            с белой зарплатой до 300 000₽₽</h5>
+            <button class="header__description-button button">Узнать<br> 
+            все актуальные вакансии</button>
+        </div>
+        <img src="./img/headerGirl.svg" alt="header-picture" class="header__content-picture">
+    </section>
     <script src="./script/main.js"></script>
 </body>
 </html>

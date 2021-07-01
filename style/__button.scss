@@ -1,0 +1,39 @@
+.button {
+    width: 384px;
+    height: 72px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: $colorButton;
+    box-shadow: 4px 12px 40px rgba(47, 128, 237, 0.35);
+    border-radius: 8px;
+    border: none;
+}
+.header__description-button {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.header__button {
+    width: 280px;
+    height: 40px;
+    background: $colorWhite;
+    border: 2px solid $colorButton;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: $colorButton;
+    transition: 0.5s;
+}

@@ -1,15 +1,26 @@
-$fontColor: #34547A;
+$colorMain: #333333;
+$colorButton: #2F80ED;
+$colorBlack: Black;
+$colorWhite: white;
+
+
 
 
 * {
-    font-family: 'Roboto','Revalia', cursive sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+    src: url(../fonts/MullerLight.ttf);
+    src: url(../fonts/MullerNarrow-ExtraBold.ttf);
+    src: url(../fonts/MullerNarrow-Light.ttf);
+    src: url(../fonts/MullerUltraLight.ttf);
+    font-family: 'Muller', sans-serif;
+    src: url(../fonts/PTSerif-Bold.ttf);
+    src: url(../fonts/PTSerif-BoldItalic.ttf);
+    src: url(../fonts/PTSerif-Italic.ttf);
+    src: url(../fonts/PTSerif-Regular.ttf);
 }
 
-.burger__menu {
-    display: none;
-}
-
-
-@import './header';
-@import './media';
-@import './burger';
+@import './__header';
+@import './__header__content';
+@import './__button';
+@import './__hover';

@@ -1,0 +1,19 @@
+.button:hover {
+    background: $colorButton;
+    color: white;
+    transition: 0.1s;
+}
+
+.header__logo-link:hover {
+    color: $colorMain;
+    transition: 0.1s;
+}
+
+.header__description-button:hover {
+    box-shadow: inset 0 0 0 5px $colorButton;
+    background: $colorWhite;
+    color: $colorMain;
+    transition: 0.2s;
+}
+
+
